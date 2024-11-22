@@ -31,4 +31,4 @@ Este é um projeto desenvolvido para explorar as funcionalidades do **Spring Boo
    git clone https://github.com/JoaoSobrinhoMoD/project-springboot3-jpa.git
 
 ## 🛡️ Considerações Finais
-Este projeto foi desenvolvido como parte de meus estudos em Java e Spring Framework. Ele me proporcionou uma compreensão mais profunda do funcionamento de sistemas baseados em bancos de dados relacionais e boas práticas no desenvolvimento de APIs RESTful.
+Este projeto foi inspirado por exercícios práticos, especialmente no curso de Java COMPLETO Programação Orientada a Objetos + Projetos do professor Nelio Alves. Ele me proporcionou uma compreensão mais profunda do funcionamento de sistemas baseados em bancos de dados relacionais e boas práticas no desenvolvimento de APIs RESTful.
