@@ -1,27 +1,34 @@
-# Project Spring Boot 3 com JPA
+# Project: Spring Boot 3 with JPA
 
-Este é um projeto de exemplo utilizando **Spring Boot 3** e **Java Persistence API (JPA)** para demonstração de funcionalidades CRUD em uma aplicação Java. O objetivo é mostrar a integração entre Spring Boot e JPA para manipulação de dados em uma base relacional.
+Este é um projeto desenvolvido para explorar as funcionalidades do **Spring Boot 3** e da **Java Persistence API (JPA)**. Ele demonstra a integração entre aplicações Java e bancos de dados relacionais, implementando operações CRUD e associações entre entidades.
 
-## Tecnologias Utilizadas
-- Java
-- Spring Boot 3
-- Spring Data JPA
-- Banco de Dados Relacional (PostgreSQL)
+## 💡 Objetivos
+- Implementar operações CRUD com JPA e Spring Data.
+- Trabalhar com associações entre entidades como *One-to-Many* e *Many-to-One*.
+- Demonstrar boas práticas no design de sistemas baseados em bancos de dados relacionais.
 
-## Funcionalidades
-- Configuração básica com Spring Boot 3
-- CRUD completo usando JPA
-- Estrutura de pastas organizada (entidades, repositórios, serviços)
+## 🛠️ Tecnologias Utilizadas
+- **Java 17**: Linguagem principal para o desenvolvimento.
+- **Spring Boot 3**: Framework para facilitar a criação de APIs REST.
+- **Spring Data JPA**: Abstração para trabalhar com JPA de maneira simples.
+- **Banco de Dados Relacional**: Compatível com PostgreSQL.
+- **Maven**: Gerenciador de dependências e build.
 
-## Estrutura do Projeto
-- **Entities**: Mapeamento de classes Java para tabelas do banco de dados.
-- **Repositories**: Interface para acesso ao banco usando Spring Data JPA.
-- **Services**: Camada de lógica de negócio.
+## 📂 Estrutura do Projeto
+- **Entities**: Representação das tabelas do banco de dados.
+- **Repositories**: Interfaces para acesso a dados utilizando Spring Data.
+- **Services**: Camada responsável pela lógica de negócios.
+- **Controllers**: Gerenciamento das requisições e respostas da API.
 
-## Como Executar
-1. Clone o repositório.
-2. Configure o banco de dados nas propriedades do projeto.
-3. Execute a aplicação com `mvn spring-boot:run`.
+## 📝 Funcionalidades Implementadas
+1. Operações CRUD completas para gerenciamento de dados.
+2. Configuração de relacionamentos entre entidades.
+3. Consultas customizadas usando Spring Data JPA.
 
-## Contribuição
-Sinta-se à vontade para contribuir abrindo uma issue ou um pull request.
+## 🔗 Como Executar
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/JoaoSobrinhoMoD/project-springboot3-jpa.git
+
+## 🛡️ Considerações Finais
+Este projeto foi desenvolvido como parte de meus estudos em Java e Spring Framework. Ele me proporcionou uma compreensão mais profunda do funcionamento de sistemas baseados em bancos de dados relacionais e boas práticas no desenvolvimento de APIs RESTful.
